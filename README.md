@@ -8,9 +8,10 @@ A modern journaling app built with React Native and Expo, designed to help users
 2. Features Overview
 3. Design Decisions and Architecture
 4. Known Limitations and Future Improvements
-5. Third-Party Libraries
+5. Screenshots
+6. Third-Party Libraries
 
-## Setup and Installation
+## (01) Setup and Installation
 
    ### Prerequisites
    
@@ -41,7 +42,7 @@ A modern journaling app built with React Native and Expo, designed to help users
          -For Android: Open Android Studio, start an emulator, and click "Run on Android device/emulator" in the Expo Developer Tools.
          -For iOS: Open Xcode, start a simulator, and click "Run on iOS simulator" in the Expo Developer Tools.
 
-## Features Overview
+## (02) Features Overview
 
    Core Features
    
@@ -57,7 +58,7 @@ A modern journaling app built with React Native and Expo, designed to help users
    3. Persistent Storage:
    Saves journal entries locally using AsyncStorage.
 
-## Design Decisions and Architecture
+## (03) Design Decisions and Architecture
    
    1. Data Persistence
       AsyncStorage is used to persist journal entries locally, ensuring data is retained even after the app is closed.
@@ -72,7 +73,7 @@ A modern journaling app built with React Native and Expo, designed to help users
       Context API is used for state management (JournalContext) to share data (e.g., journal entries) across components.
       The app is structured using reusable components like ThemedView, JournalProvider, and Dashboard.
 
-## Known Limitations and Future Improvements
+## (04) Known Limitations and Future Improvements
 
    01. Known Limitations
       1. No Cloud Sync: Data is stored locally and cannot be synced across devices.
@@ -85,7 +86,13 @@ A modern journaling app built with React Native and Expo, designed to help users
       4. Push Notifications: Remind users to log their daily entries.
       5. Theming: Supports light and dark modes.
 
-## Third-Party Libraries
+## (05) Screenshots
+<img src="https://github.com/user-attachments/assets/9827d8b4-0a0e-43cd-8344-36caa82b6bbc" alt="JournalPage" width="100"/>
+<img src="https://github.com/user-attachments/assets/0b43eab3-f491-4b02-85bf-4e8729ac9201" alt="Dashboard" width="100"/>
+<img src="https://github.com/user-attachments/assets/3dbf4430-5953-435f-9ebd-88eca1786163" alt="Dashboard1" width="100"/>
+
+
+## (06) Third-Party Libraries
 
    1. Expo
    Why: Provides a streamlined development environment for React Native apps.
