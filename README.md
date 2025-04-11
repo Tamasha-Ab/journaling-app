@@ -51,44 +51,44 @@ Steps to Run the App
 
 Core Features
 
-* Journal Entries:
+1. Journal Entries:
 Add, edit, and delete journal entries.
 Attach images to entries.
 Track moods (e.g., Happy, Neutral, Sad).
 
-* Dashboard:
+2. Dashboard:
 Visualize mood trends using a pie chart.
 View journal entry frequency using a bar chart.
 
-* Theming:
+3. Theming:
 Supports light and dark modes.
 
-* Persistent Storage:
+4. Persistent Storage:
 Saves journal entries locally using AsyncStorage.
 
 ## Design Decisions and Architecture
 
-* Component-Based Architecture
+1. Component-Based Architecture
    The app is structured using reusable components like ThemedView, JournalProvider, and Dashboard.
 
    Context API is used for state management (JournalContext) to share data (e.g., journal entries) across components.
 
-* Data Persistence
+2. Data Persistence
 AsyncStorage is used to persist journal entries locally, ensuring data is retained even after the app is closed.
 
-* Charts and Visualization
+3. Charts and Visualization
 react-native-chart-kit is used for rendering charts (pie and bar charts) to provide insights into user data.
 
-* Routing
+4. Routing
 expo-router is used for navigation, enabling a tab-based layout with screens for "Journal" and "Dashboard."
 
 ## Known Limitations and Future Improvements
 
-* Known Limitations
+1. Known Limitations
    No Cloud Sync: Data is stored locally and cannot be synced across devices.
    Limited Mood Options: Only three moods (Happy, Neutral, Sad) are available.
 
-* Future Improvements
+2. Future Improvements
    Cloud Integration: Add support for syncing data with cloud storage (e.g., Firebase).
    Custom Moods: Allow users to define their own moods.
    Search and Filters: Add functionality to search and filter journal entries by date or mood.
