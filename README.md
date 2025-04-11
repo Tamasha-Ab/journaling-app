@@ -75,9 +75,10 @@ A modern journaling app built with React Native and Expo, designed to help users
 
    1. Known Limitations
       No Cloud Sync: Data is stored locally and cannot be synced across devices.
+      
       Limited Mood Options: Only three moods (Happy, Neutral, Sad) are available.
    
-   2. Future Improvements
+   3. Future Improvements
       Cloud Integration: Add support for syncing data with cloud storage (e.g., Firebase).
       Custom Moods: Allow users to define their own moods.
       Search and Filters: Add functionality to search and filter journal entries by date or mood.
