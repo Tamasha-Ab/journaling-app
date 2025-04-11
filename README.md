@@ -1,4 +1,4 @@
-# Welcome to your Journaling App 👋
+# Welcome to My Journaling App 👋
 
 A modern journaling app built with React Native and Expo, designed to help users track their daily thoughts, moods, and activities. The app includes features like mood tracking, image attachments, and data visualization through charts.
 
@@ -87,10 +87,11 @@ A modern journaling app built with React Native and Expo, designed to help users
       5. Theming: Supports light and dark modes.
 
 ## (05) Screenshots
-<img src="https://github.com/user-attachments/assets/9827d8b4-0a0e-43cd-8344-36caa82b6bbc" alt="JournalPage" width="100"/>
-<img src="https://github.com/user-attachments/assets/0b43eab3-f491-4b02-85bf-4e8729ac9201" alt="Dashboard" width="100"/>
-<img src="https://github.com/user-attachments/assets/3dbf4430-5953-435f-9ebd-88eca1786163" alt="Dashboard1" width="100"/>
 
+<img src="https://github.com/user-attachments/assets/ed7bdefb-200b-41f6-8912-748ff797c7f0" alt="J1" width="100"/>
+<img src="https://github.com/user-attachments/assets/023fdaab-b692-4cb0-be9f-81713bc3c577" alt="J2" width="100"/>
+<img src="https://github.com/user-attachments/assets/3c9251a3-80f3-4000-9d68-c676de4749d4" alt="DB1" width="100"/>
+<img src="https://github.com/user-attachments/assets/6787501b-7603-4370-85ad-f1c4197e81e6" alt="DB2" width="100"/>
 
 ## (06) Third-Party Libraries
 
