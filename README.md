@@ -14,10 +14,10 @@ A modern journaling app built with React Native and Expo, designed to help users
 
 Prerequisites
 
-`Node.js (v16 or later)
-`npm or yarn
-`Expo CLI (npx expo-cli)
-`Android Studio (for Android emulator) or Xcode (for iOS simulator)
+1.Node.js (v16 or later)
+2.npm or yarn
+3.Expo CLI (npx expo-cli)
+4.Android Studio (for Android emulator) or Xcode (for iOS simulator)
 
 Steps to Run the App
 
@@ -42,8 +42,8 @@ Steps to Run the App
 
 4. Run the app:
 
-*On a physical device: Install the Expo Go app and scan the QR code.
-*On an emulator:
+-> On a physical device: Install the Expo Go app and scan the QR code.
+-> On an emulator:
       -For Android: Open Android Studio, start an emulator, and click "Run on Android device/emulator" in the Expo Developer Tools.
       -For iOS: Open Xcode, start a simulator, and click "Run on iOS simulator" in the Expo Developer Tools.
 
@@ -51,44 +51,44 @@ Steps to Run the App
 
 Core Features
 
-Journal Entries:
+* Journal Entries:
 Add, edit, and delete journal entries.
 Attach images to entries.
 Track moods (e.g., Happy, Neutral, Sad).
 
-Dashboard:
+* Dashboard:
 Visualize mood trends using a pie chart.
 View journal entry frequency using a bar chart.
 
-Theming:
+* Theming:
 Supports light and dark modes.
 
-Persistent Storage:
+* Persistent Storage:
 Saves journal entries locally using AsyncStorage.
 
 ## Design Decisions and Architecture
 
-*Component-Based Architecture
+* Component-Based Architecture
    The app is structured using reusable components like ThemedView, JournalProvider, and Dashboard.
 
    Context API is used for state management (JournalContext) to share data (e.g., journal entries) across components.
 
-*Data Persistence
+* Data Persistence
 AsyncStorage is used to persist journal entries locally, ensuring data is retained even after the app is closed.
 
-*Charts and Visualization
+* Charts and Visualization
 react-native-chart-kit is used for rendering charts (pie and bar charts) to provide insights into user data.
 
-*Routing
+* Routing
 expo-router is used for navigation, enabling a tab-based layout with screens for "Journal" and "Dashboard."
 
 ## Known Limitations and Future Improvements
 
-*Known Limitations
+* Known Limitations
    No Cloud Sync: Data is stored locally and cannot be synced across devices.
    Limited Mood Options: Only three moods (Happy, Neutral, Sad) are available.
 
-*Future Improvements
+* Future Improvements
    Cloud Integration: Add support for syncing data with cloud storage (e.g., Firebase).
    Custom Moods: Allow users to define their own moods.
    Search and Filters: Add functionality to search and filter journal entries by date or mood.
