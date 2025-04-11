@@ -97,6 +97,20 @@ export default function JournalPage() {
 
   const groupedEntriesArray = Object.entries(groupedEntries);
 
+  // Helper function to map moods to emojis
+  const getMoodEmoji = (mood: string) => {
+    switch (mood) {
+      case 'Happy':
+        return '😊';
+      case 'Neutral':
+        return '😐';
+      case 'Sad':
+        return '😢';
+      default:
+        return '❓';
+    }
+  };
+
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Journal Entries</Text>
@@ -110,7 +124,9 @@ export default function JournalPage() {
               <View key={entry.id} style={styles.card}>
                 <View style={styles.cardHeader}>
                   <Text style={styles.cardContent}>{entry.content}</Text>
-                  <Text style={styles.mood}>Mood: {entry.mood}</Text>
+                  <Text style={styles.mood}>
+                    Mood: {getMoodEmoji(entry.mood)} {entry.mood}
+                  </Text>
                 </View>
                 {entry.image && (
                   <Image
