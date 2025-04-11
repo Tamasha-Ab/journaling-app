@@ -12,30 +12,31 @@ A modern journaling app built with React Native and Expo, designed to help users
 
 ## Setup and Installation
 
-   Prerequisites
+   ### Prerequisites
    
    1. Node.js (v16 or later)
    2. npm or yarn
    3. Expo CLI (npx expo-cli)
    4. Android Studio (for Android emulator) or Xcode (for iOS simulator)
    
-   Steps to Run the App
+   ### Steps to Run the App
    
-   1. Install dependencies:
+   ## 1. Install dependencies:
    
       ```bash
        npm install
       ```
    
-   2. Start the Expo development server:
+   ## 2. Start the Expo development server:
    
       ```bash
        npx expo start
       ```
    
-   3. Run the app:
+   ## 3. Run the app:
    
    1) On a physical device: Install the Expo Go app and scan the QR code.
+   
    2) On an emulator:
          -For Android: Open Android Studio, start an emulator, and click "Run on Android device/emulator" in the Expo Developer Tools.
          -For iOS: Open Xcode, start a simulator, and click "Run on iOS simulator" in the Expo Developer Tools.
@@ -73,16 +74,16 @@ A modern journaling app built with React Native and Expo, designed to help users
 
 ## Known Limitations and Future Improvements
 
-   1. Known Limitations
-   No Cloud Sync: Data is stored locally and cannot be synced across devices.
-   Limited Mood Options: Only three moods (Happy, Neutral, Sad) are available.
+   01. Known Limitations
+      1. No Cloud Sync: Data is stored locally and cannot be synced across devices.
+      2. Limited Mood Options: Only three moods (Happy, Neutral, Sad) are available.
    
-   4. Future Improvements
-      Cloud Integration: Add support for syncing data with cloud storage (e.g., Firebase).
-      Custom Moods: Allow users to define their own moods.
-      Search and Filters: Add functionality to search and filter journal entries by date or mood.
-      Push Notifications: Remind users to log their daily entries.
-      Theming: Supports light and dark modes.
+   02. Future Improvements
+      1. Cloud Integration: Add support for syncing data with cloud storage (e.g., Firebase).
+      2. Custom Moods: Allow users to define their own moods.
+      3. Search and Filters: Add functionality to search and filter journal entries by date or mood.
+      4. Push Notifications: Remind users to log their daily entries.
+      5. Theming: Supports light and dark modes.
 
 ## Third-Party Libraries
 
