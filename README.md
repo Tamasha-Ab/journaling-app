@@ -53,27 +53,23 @@ A modern journaling app built with React Native and Expo, designed to help users
    Visualize mood trends using a pie chart.
    View journal entry frequency using a bar chart.
    
-   3. Theming:
-   Supports light and dark modes.
-   
-   4. Persistent Storage:
+   3. Persistent Storage:
    Saves journal entries locally using AsyncStorage.
 
 ## Design Decisions and Architecture
+   
+   1. Data Persistence
+      AsyncStorage is used to persist journal entries locally, ensuring data is retained even after the app is closed.
+   
+   2. Charts and Visualization
+      react-native-chart-kit is used for rendering charts (pie and bar charts) to provide insights into user data.
+   
+   3. Routing
+      expo-router is used for navigation, enabling a tab-based layout with screens for "Journal" and "Dashboard."
 
-   1. Component-Based Architecture
-      The app is structured using reusable components like ThemedView, JournalProvider, and Dashboard.
-   
+   4. Component-Based Architecture
       Context API is used for state management (JournalContext) to share data (e.g., journal entries) across components.
-   
-   2. Data Persistence
-   AsyncStorage is used to persist journal entries locally, ensuring data is retained even after the app is closed.
-   
-   3. Charts and Visualization
-   react-native-chart-kit is used for rendering charts (pie and bar charts) to provide insights into user data.
-   
-   4. Routing
-   expo-router is used for navigation, enabling a tab-based layout with screens for "Journal" and "Dashboard."
+      The app is structured using reusable components like ThemedView, JournalProvider, and Dashboard.
 
 ## Known Limitations and Future Improvements
 
@@ -86,6 +82,7 @@ A modern journaling app built with React Native and Expo, designed to help users
       Custom Moods: Allow users to define their own moods.
       Search and Filters: Add functionality to search and filter journal entries by date or mood.
       Push Notifications: Remind users to log their daily entries.
+      Theming: Supports light and dark modes.
 
 ## Third-Party Libraries
 
