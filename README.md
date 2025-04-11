@@ -14,10 +14,10 @@ A modern journaling app built with React Native and Expo, designed to help users
 
 Prerequisites
 
-Node.js (v16 or later)
-npm or yarn
-Expo CLI (npx expo-cli)
-Android Studio (for Android emulator) or Xcode (for iOS simulator)
+`Node.js (v16 or later)
+`npm or yarn
+`Expo CLI (npx expo-cli)
+`Android Studio (for Android emulator) or Xcode (for iOS simulator)
 
 Steps to Run the App
 
