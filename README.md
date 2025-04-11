@@ -42,8 +42,8 @@ Steps to Run the App
 
 4. Run the app:
 
--> On a physical device: Install the Expo Go app and scan the QR code.
--> On an emulator:
+1) On a physical device: Install the Expo Go app and scan the QR code.
+2) On an emulator:
       -For Android: Open Android Studio, start an emulator, and click "Run on Android device/emulator" in the Expo Developer Tools.
       -For iOS: Open Xcode, start a simulator, and click "Run on iOS simulator" in the Expo Developer Tools.
 
